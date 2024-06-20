@@ -27,12 +27,13 @@ key = "S"
 mods = "Command"
 chars = "\u0013"
 
+
 [[keyboard.bindings]]
 key = "F"
 mods = "Command"
-chars = "\u0006"
+chars = "\u000C"
 
 [[keyboard.bindings]]
 key = "F"
 mods = "Command|Shift"
-chars = "\u000C"
+chars = "\u0009"
