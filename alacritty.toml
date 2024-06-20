@@ -6,11 +6,13 @@ import = [
 TERM = "xterm-256color"
 
 [window]
-padding.x = 10
-padding.y = 10
+padding.x = 5
+padding.y = 23
+dimensions.columns = 100
+dimensions.lines = 25
 
-decorations = "Buttonless"
-startup_mode = "Fullscreen"
+decorations = "transparent"
+startup_mode = "Maximized"
 opacity = 0.8
 blur = true
 
@@ -18,4 +20,19 @@ blur = true
 [font]
 normal.family = "MesloLGS Nerd Font Mono"
 
-size = 19
+size = 17
+
+[[keyboard.bindings]]
+key = "S"
+mods = "Command"
+chars = "\u0013"
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Command"
+chars = "\u0006"
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Command|Shift"
+chars = "\u000C"
