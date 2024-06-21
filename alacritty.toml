@@ -31,7 +31,7 @@ chars = "\u0013"
 [[keyboard.bindings]]
 key = "F"
 mods = "Command"
-chars = "\u000C"
+chars = "\u0010"
 
 [[keyboard.bindings]]
 key = "F"
